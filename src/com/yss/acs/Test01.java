@@ -111,5 +111,8 @@ public class Test01 {
         map.put("6", "小花");
         //Stream多线程遍历
         map.entrySet().parallelStream().forEach(entry -> System.out.println("key==>"+entry.getKey()+"  value==>"+entry.getValue()));
+
+
+
     }
 }
